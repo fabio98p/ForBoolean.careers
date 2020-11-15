@@ -1,0 +1,69 @@
+/* background immage */
+body {
+background-image: url(background.jpg);
+background-position: center;
+background-position: top;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+*{
+  font-family: arial;
+}
+
+/* reading area */
+.reading_area{
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+/* header class */
+header{
+  text-align: center;
+}
+
+header img{
+  width: 25%
+}
+header h1{
+  color: rgb(0,230,0);
+}
+.background_green{
+    background-color: rgb(0,230,0);
+    padding: 10px
+}
+
+/* main class */
+main{
+  color: white;
+}
+main strong{
+  font-size: 25px;
+}
+
+/* opzioni barra di carica comuni */
+.charge_bar_low, .charge_bar_medium, .charge_bar_high{
+  padding: 15px;
+  border-radius: 5px 5px 5px 5px;
+}
+/* Carica bassa */
+.charge_bar_low{
+  background-color: rgb(230,0,0);
+  width: 10%;
+}
+
+/* Carica media */
+.charge_bar_medium{
+  background-color: rgb(230,140,0);
+  width: 25%;
+}
+
+/* Carica alta */
+.charge_bar_high{
+  background-color: rgb(0,230,0);
+  width: 50%;
+}
